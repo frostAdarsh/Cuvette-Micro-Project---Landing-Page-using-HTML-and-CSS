@@ -86,29 +86,16 @@
   height: 407px;
   border-radius: 20px;
 }
-.img2-container{
-  position: relative;
-  z-index: 20;
-  /* top :0px; */
-  /* left: 100%px; */
-  top: 56px;
-  /* height: 10vh; */
-  height: 1500px;
-  
+.img2-container {
+  position: sticky;
+  top: 0px;
 }
 
 .img2 {
   height: 350px;
-  position: sticky; 
-  /* top: 0px;  */
-  /* left: 1450px;  */
-  /* top: 20px; */
-  /* z-index: 10; */
-  left: 1450px;
-  /* transform: translateY(-156%);  */
-  
+  position: absolute;
+  left: 1426px;
 }
-
 
 .box {
   width: 1100px;
